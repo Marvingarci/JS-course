@@ -1,3 +1,3 @@
 const nombre = "Hola Mundo";
 nombre = "Hola Mundo 2";
-console.log(nombre);
+console.log(nombre); // Hola Mundo

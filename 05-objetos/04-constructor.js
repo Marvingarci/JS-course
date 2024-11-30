@@ -10,4 +10,4 @@ let user = new Usuario();
 // Despues "this" hace referencia a ese objeto vacio
 // se ejecuta el codigo de la funcion Usuario 
 // se retorna el objeto que se creo en el paso 1
-console.log(user); // undefined
+console.log(user); // Usuario { id: 1, recuperarClave: [Function] }

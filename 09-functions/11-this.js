@@ -20,13 +20,13 @@
 //     console.log(this);
 // }
 
-// log()
+// log() // Window { ... }
 
 
 // Cuando usamos new, this hace referencia al objeto que se esta creando
 function Log(mensaje){
     this.mensaje = mensaje;
-    console.log(this);
+    console.log(this); // Log { mensaje: 'Hola Mundo' }
 }
 
 const l = new Log('Hola Mundo'); // Log { mensaje: 'Hola Mundo' }  

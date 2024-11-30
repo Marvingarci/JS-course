@@ -2,6 +2,8 @@
 // No tienen argumentos, no tienen this, no tienen super
 
 const suma = () => {
+    nombre = 'nombre'
+    console.log(nombre)
     // si uso arguments en una arrow function, obtendré un error porque no tienen el objeto arguments
     // return Array.from(arguments).reduce((acc, val) => acc + val, 0);
  }

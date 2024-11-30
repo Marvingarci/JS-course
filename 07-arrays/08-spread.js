@@ -11,5 +11,5 @@ console.log(arr3);// [1, 2, 3, 4, 5, 6]
 let arr4 = [1, 2, 3];
 let arr5 = [...arr4];
 arr4.pop();
-console.log(arr5, arr4);// [1, 2, 3]
+console.log(arr5, arr4);// [1, 2, 3] [1, 2]
 

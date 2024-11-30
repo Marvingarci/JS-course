@@ -3,7 +3,7 @@ const saludo = 'Hola Mundo';
 const despedida = new String('Adios Mundo');
 console.log(typeof saludo,
     typeof despedida
-)
+) // string object
 
 console.log('long', saludo.length);
 console.log('indexOf', saludo.indexOf('Mundo'));//IndexOf devuelve el indice 5 en caso de que exista, -1 en caso contrario
